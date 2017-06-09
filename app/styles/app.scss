@@ -30,7 +30,7 @@
 }
 
 .h1 {
-  border:0;
+  margin-bottom:none;
 }
 
 .subtitle {
@@ -54,10 +54,16 @@
   flex-direction:column;
 }
 
+.form-body--left {
+
+}
+
 .field {
-  margin: 5em;
+  margin: 5rem;
   display: flex;
   justify-content: center;
+
+
 }
 
 .input {
