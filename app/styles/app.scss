@@ -10,9 +10,21 @@
 }
 
 .border-top {
-  background: royalblue;
-}
-.title {
-  background: purple;
+  background-color: rgba(70,22,255,1);
   display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 4em;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
 }
