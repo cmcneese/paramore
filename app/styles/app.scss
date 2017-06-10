@@ -7,6 +7,7 @@
 
 * {
   background-color: teal;
+  box-sizing: border-box;
 
 }
 
@@ -46,7 +47,7 @@
   margin: 0;
   padding: 1rem;
   display: flex;
-  // flex-direction: column;
+  flex-direction: column;
 }
 
 .grid {
@@ -63,12 +64,15 @@
   // margin: 5rem;
   // display: flex;
   // justify-content: center;
+  background-color: white;
   display: flex;
   flex-basis: calc(100% / 3 - 1rem - 1rem);
   flex-grow: 1;
   margin: 1rem;
+}
 
-
+.label {
+  background-color: white;
 }
 
 .input {
