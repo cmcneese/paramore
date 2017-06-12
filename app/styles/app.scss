@@ -1,6 +1,6 @@
 @import 'yoga';
 @import 'normalize';
-
+$fa-font-path: 'maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: rgba(0,47,42,2);
+  background: './app/img/background-40.jpg';
   margin: 0;
 }
 
@@ -51,9 +51,10 @@ h1 {
 .control {
   background: white;
   margin: 0;
-  padding: 1rem;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
+
 }
 
 .grid {
@@ -82,12 +83,14 @@ h1 {
 display: flex;
 flex-basis: calc(100% / 3 - 1rem - 1rem);
 flex-grow: 1;
-margin: 3rem;
+margin: 0;
 border-bottom: 1rem;
+justify-content: center;
 }
 
 .label {
   background-color: white;
+  padding: 1rem;
 }
 
 .button {
