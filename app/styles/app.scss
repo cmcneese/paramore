@@ -7,12 +7,15 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: green;
+  background-color: rgba(0,47,42,2);
   margin: 0;
 }
+
 
 .border-top {
   background-color: rgba(1,49,89,1);
@@ -75,13 +78,24 @@ h1 {
   border-bottom: 1rem;
 }
 
+.form-body {
+display: flex;
+flex-basis: calc(100% / 3 - 1rem - 1rem);
+flex-grow: 1;
+margin: 3rem;
+border-bottom: 1rem;
+}
+
 .label {
   background-color: white;
 }
 
 .button {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  background-color: rgba(109, 194, 190, 1);
+  padding: 0.5rem;
 }
 
 .input {
