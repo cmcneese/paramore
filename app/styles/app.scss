@@ -11,11 +11,12 @@ $fa-font-path: 'maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.
 }
 
 body {
-  background: url('/img/background-40.jpg');
+  background: url('/background-40.jpg');
+  justify-content: center;
 }
 
 .border-top {
-  background-color: rgba(1,49,89,1);
+  background-color: rgba(9,52,87,1);
   color: white;
   display: flex;
   justify-content: center;
