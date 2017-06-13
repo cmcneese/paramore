@@ -14,7 +14,6 @@ body {
   background: url('/img/background-40.jpg');
 }
 
-
 .border-top {
   background-color: rgba(1,49,89,1);
   color: white;
@@ -33,7 +32,7 @@ body {
 }
 
 h1 {
-  margin-bottom:none;
+  margin-bottom: none;
 }
 
 .subtitle {
@@ -57,8 +56,7 @@ h1 {
 }
 
 .form-body--left {
-
-}
+  }
 
 .grid__item {
   border-bottom: 1rem;
@@ -69,11 +67,11 @@ h1 {
 }
 
 .form-body {
-border-bottom: 1rem;
-display: flex;
-flex-basis: calc(100% / 3 - 1rem - 1rem);
-flex-grow: 1;
-justify-content: center;
+  border-bottom: 1rem;
+  display: flex;
+  flex-basis: calc(100% / 3 - 1rem - 1rem);
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .label {
