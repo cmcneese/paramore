@@ -33,8 +33,11 @@
       <div class="grid">
 
         <div class="grid__item">
-          <label class="label">Your Information</label>
           <form class="form-body">
+            <div class="form-body_container">
+              <h3 class="label">Your Information</h3>
+              <h4>Information about you and your business.</h4>
+            </div class="form-body_container">
             <div class="form-body--left">
               <p class="control">
                 <input class="input is-medium" type="text" placeholder="Medium input">
@@ -62,18 +65,16 @@
               <p class="control">
                 <input class="input is-medium" type="text" placeholder="Medium input">
               </p>
-              <a class="button is-primary" link="/">
-              Button
-            </a>
+              <div class="button-container">
+                <a class="button" link="#">
+                Button
+                            </a>
+              </div>
             </div>
           </form>
         </div>
       </div>
   </section>
-  var validator = new FormValidator('example_form', [{ name: 'req', display: 'required', rules: 'required' }, { name: 'alphanumeric', rules: 'alpha_numeric' }, { name: 'password', rules: 'required' }, { name: 'password_confirm', display: 'password confirmation',
-  rules: 'required|matches[password]' }, { name: 'email', rules: 'valid_email', depends: function() { return Math.random() > .5; } }, { name: 'minlength', display: 'min length', rules: 'min_length[8]' }], function(errors, event) { if (errors.length >
-  0) { // Show the errors } });
-  </script>
 
 </body>
 

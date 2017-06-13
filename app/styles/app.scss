@@ -58,7 +58,13 @@ h1 {
 }
 
 .form-body--left {
+  display: grid;
+
   }
+
+.form-body--right {
+  display: grid;
+}
 
 .grid__item {
   border-bottom: 1rem;
@@ -79,15 +85,17 @@ h1 {
 
 .label {
   padding: 1rem;
-  color: white;
+  color: black;
+  padding: 0;
 }
 
 .button {
   background-color: rgba(109, 194, 190, 1);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
+  display: inline-block;
 }
 
 .input {
