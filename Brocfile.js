@@ -62,6 +62,9 @@ const compiledSass = new Sass(stylePaths, 'app.scss', 'app.css', {});
 const optimizedCSS = new CssOptimizer(compiledSass);
 const styles = new Autoprefixer(optimizedCSS);
 
+const images = 'app/img';
+
+
 if (process.env.EMBER_ENV === 'test') {
   const testTree = new Merge([
     mv(babelScript, 'app'),
