@@ -113,13 +113,20 @@ h1 {
   padding: 1rem;
 }
 
-.button-on {
+.submit {
   display: inline-block;
   background-color: rgba(109, 194, 190, 1);
+  justify-content: center;
 // &--submit{
 //   margin: 3rem;
 //   padding: 1rem;
 //   display: flex;
 //   justify-content: center;
 // }
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
