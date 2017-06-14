@@ -52,7 +52,7 @@ h1 {
 }
 
 .grid {
-  // display: flex;
+  display: flex;
   // flex-wrap: wrap-reverse;
   // margin: -1rem;
 }
@@ -114,9 +114,10 @@ h1 {
 }
 
 .submit {
-  display: inline-block;
-  background-color: rgba(109, 194, 190, 1);
+  display: flex;
   justify-content: center;
+  background-color: rgba(109, 194, 190, 1);
+  color: white;
 // &--submit{
 //   margin: 3rem;
 //   padding: 1rem;
