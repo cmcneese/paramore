@@ -46,21 +46,21 @@ h1 {
 
 .control {
   background: white;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   padding: 0 20px;
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -1rem;
+  // display: flex;
+  // flex-wrap: wrap-reverse;
+  // margin: -1rem;
 }
 
-.form-body--left {
-  display: grid;
-
-  }
+// .form-body--left {
+//   display: grid;
+//
+//   }
 
 .form-body--right {
   display: grid;
@@ -76,11 +76,20 @@ h1 {
 
 .form-body {
   border-bottom: 1rem;
-  display: flex;
-  flex-basis: calc(100% / 3 - 1rem - 1rem);
+  // display: flex;
+  // flex-basis: calc(100% / 3 - 1rem - 1rem);
   flex-grow: 1;
   justify-content: center;
   background-color: white;
+}
+
+.form-body_input {
+  padding: 0;
+  display: flex;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 .label {
@@ -92,8 +101,8 @@ h1 {
 .button {
   background-color: rgba(109, 194, 190, 1);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  // flex-direction: column;
+  // justify-content: center;
   padding: 0.2rem;
   display: inline-block;
 }
