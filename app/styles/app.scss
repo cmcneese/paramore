@@ -37,6 +37,9 @@ h1 {
   margin-bottom: none;
 }
 
+h2 {
+  
+}
 .subtitle {
   color: white;
   display: flex;
@@ -44,6 +47,23 @@ h1 {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+}
+
+.grid {
+  // display: flex;
+  // flex-wrap: wrap-reverse;
+  // margin: -1rem;
+}
+
+.subcontainer {
+  background-color: rgba(154, 176, 189, 1);
+  margin: 3rem;
+  padding: 1rem;
+}
 
 .control {
   background: white;
@@ -52,11 +72,6 @@ h1 {
   padding: 0 20px;
 }
 
-.grid {
-  // display: flex;
-  // flex-wrap: wrap-reverse;
-  // margin: -1rem;
-}
 
 .form-body--right {
   display: grid;
@@ -112,17 +127,14 @@ h1 {
   width: auto;
 }
 
-.subcontainer {
-  background-color: rgba(154, 176, 189, 1);
-  margin: 3rem;
-  padding: 1rem;
-}
 
 .submit {
   display: flex;
   justify-content: center;
+  margin: 3rem;
   background-color: rgba(109, 194, 190, 1);
   color: white;
+  padding: 1rem;
 // &--submit{
 //   margin: 3rem;
 //   padding: 1rem;
