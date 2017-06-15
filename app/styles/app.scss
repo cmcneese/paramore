@@ -37,9 +37,9 @@ h1 {
   margin-bottom: none;
 }
 
-h2 {
+// h2 {
   
-}
+// }
 .subtitle {
   color: white;
   display: flex;
@@ -47,9 +47,9 @@ h2 {
   text-align: center;
 }
 
-.section {
+// .section {
 
-}
+// }
 
 .container {
   // display: inline-block;
@@ -58,10 +58,13 @@ h2 {
 }
 
 .grid {
-  // display: flex;
-  // flex-wrap: wrap-reverse;
+  display: flex;
+  flex-wrap: wrap-reverse;
   // margin: -1rem;
-}
+
+  
+  }
+
 
 .subcontainer {
   background-color: rgba(154, 176, 189, 1);
@@ -97,9 +100,14 @@ h2 {
 
 .form-body_container {
   padding: 1rem;
+  input[type="text"]{
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;}
 }
 
 .form-body_input {
+  border: 3px solid red;
   padding: 1rem;
   display: flex;
   border: 0;
@@ -129,13 +137,11 @@ h2 {
 
 
 .submit {
+  display: block;
   background-color: rgba(109, 194, 190, 1);
   color: white;
   padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  text-align: center;
+  margin: 0 auto;
 
 }
 
