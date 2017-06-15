@@ -81,6 +81,8 @@ h6 {
   background: white;
   display: flex;
   flex-grow: 1;
+  padding: 1rem;
+  
 }
 .input {input[type="text"]{
     width: 150px;
@@ -94,7 +96,6 @@ h6 {
   }
   border: 3px solid gray;
   flex-grow: 1;
-  padding: 1rem;
 }
 
 
@@ -121,12 +122,12 @@ h6 {
 }
 
 .form-body_input {
-  padding: 1rem;
   display: flex;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  justify-content: space-between;
 }
 
 .label {
