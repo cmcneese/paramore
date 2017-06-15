@@ -48,8 +48,8 @@ h2 {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   // justify-content: center;
 }
 
@@ -129,11 +129,15 @@ h2 {
 
 
 .submit {
-  display: flex;
-  justify-content: center;
   background-color: rgba(109, 194, 190, 1);
+  border: none;
   color: white;
-  padding: 1rem;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
 }
 
 .footer {
