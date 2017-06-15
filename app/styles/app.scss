@@ -47,6 +47,10 @@ h2 {
   text-align: center;
 }
 
+.section {
+
+}
+
 .container {
   // display: inline-block;
   // flex-direction: column;
@@ -67,15 +71,11 @@ h2 {
 
 .control {
   background: white;
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-grow: 1;
   padding: 0 20px;
 }
 
-
-.form-body--right {
-  display: grid;
-}
 
 .grid__item {
   border-bottom: 1rem;
@@ -130,13 +130,12 @@ h2 {
 
 .submit {
   background-color: rgba(109, 194, 190, 1);
-  border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  text-align: center;
 
 }
 
