@@ -53,12 +53,6 @@ h6 {
   }
 
 
-.subcontainer {
-  // background-color: rgba(154, 176, 189, 1);
-  background-color: white;
-  margin: 3rem;
-  padding: 1rem;
-}
 
 .control {
   background: white;
@@ -119,6 +113,14 @@ h6 {
 }
 
 .button {
+  background-color: rgba(109, 194, 190, 1);
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.button-bottom {
   background-color: rgba(109, 194, 190, 1);
   display: flex;
   color: white;
