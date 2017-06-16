@@ -36,10 +36,6 @@ h1 {
   margin-bottom: none;
 }
 
-// h2 {
-  
-// }
-
 h6 {
   font-weight: normal;
 }
@@ -51,22 +47,9 @@ h6 {
   text-align: center;
 }
 
-// .section {
-
-// }
-
-.container {
-  // display: inline-block;
-  // flex-direction: column;
-  // justify-content: center;
-}
-
 .grid {
   display: flex;
   flex-wrap: wrap-reverse;
-  // margin: -1rem;
-
-  
   }
 
 
@@ -108,12 +91,9 @@ h6 {
 
 .form-body {
   border-bottom: 1rem;
-  // display: flex;
-  // flex-basis: calc(100% / 3 - 1rem - 1rem);
   flex-grow: 1;
   justify-content: center;
   background-color: white;
-  // padding: rem;
 }
 
 .form-body_container {
