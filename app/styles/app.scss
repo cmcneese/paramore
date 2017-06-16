@@ -54,7 +54,8 @@ h6 {
 
 
 .subcontainer {
-  background-color: rgba(154, 176, 189, 1);
+  // background-color: rgba(154, 176, 189, 1);
+  background-color: white;
   margin: 3rem;
   padding: 1rem;
 }
@@ -64,7 +65,7 @@ h6 {
   display: flex;
   flex-grow: 1;
   padding: 1rem;
-  
+
 }
 .input {input[type=text],{
     width: 150px;
