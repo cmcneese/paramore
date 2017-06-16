@@ -66,12 +66,14 @@ h6 {
   padding: 1rem;
   
 }
-.input {input[type="text"]{
+.input {input[type=text],{
     width: 150px;
     display: block;
     margin-bottom: 10px;
     }
-  input[type="button"] {
+  input[type=text],
+  input[type=email],
+   {
     width: 120px;
     margin-left: 35px;
     display: block;
