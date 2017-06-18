@@ -74,7 +74,7 @@
                 </div>
               </div>
 
-              <a class="button" type="button">
+              <a class="button" href="#">
       NEXT QUESTION
     </a>
         </div>
@@ -87,14 +87,13 @@
     <div class="container">
       <div class="grid">
         <div class="grid__item">
-          <form class="form-body">
-            <form id="signup" action="Spectrum" method="POST">
-              <div class="form-body_container">
+          <form class="form-body id="signup" action="Spectrum" method="POST" ">
+              <!-- <div class="form-body_container">
                 <h3 class="label">Why You?</h3>
                 <h4>Why do customers choose you over the competition?</h4>
               </div class="form-body_container">
               <!-- Step 2 Form -->
-              <div class="form-body_input">
+              <!-- <div class="form-body_input">
                 <div class="control">
                   <button class="input is-medium" type="select" placeholder="BEST CUSTOMER SERVICE">
                 </div>
@@ -120,10 +119,62 @@
               <a class="button" type="button">
         NEXT QUESTION
       </a>
-        </div>
+        </div> -->
+        <fieldset class="step2">
+    <h3 class="label">Why You?</h3>
+
+    <h4>Why do customers choose you over the competition?</h4>
+
+    <fieldset>
+      <label
+        class="input is-medium"
+        for="serviceChoice"
+        placeholder="BEST CUSTOMER SERVICE">
+        BEST CUSTOMER SERVICE
+      </label>
+      <input type="checkbox" class="input is-medium" id="serviceChoice" value="BEST CUSTOMER SERVICE">
+
+      <label
+        class="input is-medium"
+        for="trustChoice"
+        placeholder="REPUTATION/TRUST">
+        REPUTATION/TRUST
+      </label>
+      <input type="checkbox" class="input is-medium" id="trustChoice" value="REPUTATION/TRUST">
+
+      <label
+        class="input is-medium"
+        for="priceChoice"
+        placeholder="BEST PRICE">
+        BEST PRICE
+      </label>
+      <input type="checkbox" class="input is-medium" id="priceChoice" value="BEST PRICE">
+
+      <label
+        class="input is-medium"
+        for="qualityChoice"
+        placeholder="QUALITY PRODUCT">
+        QUALITY PRODUCT
+      </label>
+      <input type="checkbox" class="input is-medium" id="qualityChoice" value="QUALITY PRODUCT">
+
+      <label
+        class="input is-medium"
+        for="otherChoice"
+        placeholder="OTHER">
+        OTHER
+      </label>
+      <input type="checkbox" class="input is-medium" id="otherChoice" value="OTHER">
+    </fieldset>
+
+    <a class="button" href="#">NEXT QUESTION</a>
+
+  </fieldset><!-- step2 -->
+
+  <!-- <button class="submit" type="submit">SUBMIT</button> -->
       </div>
     </div>
-    </form>
+
 
     </form>
     </div>
