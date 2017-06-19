@@ -6,7 +6,6 @@
   <title>Chris McNeese - Paramore Digital</title>
   <link rel="stylesheet" href="/app.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.11.1/validate.min.js"></script>
 </head>
 
 <body>
@@ -32,48 +31,49 @@
       <div class="grid">
         <div class="grid__item">
           <form class="form-body">
-              <div class="form-body--container">
-                <h3 class="label">Your Information</h3>
-                <h4>Information about you and your business.</h4>
+            <div class="form-body--container">
+              <h3 class="label">Your Information</h3>
+              <h4>Information about you and your business.</h4>
+            </div>
+            <!-- Step 1 Form -->
+            <div class="form-body--input">
+              <div class="control">
+                <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.11.1/validate.min.js"></script>
+                <input class="input is-medium" type="text" placeholder="Company Name">
               </div>
-              <!-- Step 1 Form -->
-              <div class="form-body--input">
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Company Name">
-                </div>
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Business Street Address">
-                </div>
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="Business Street Address">
               </div>
-              <div class="form-body--input">
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Business Type">
-                </div>
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Business Suite/Apt Number (Optional)">
-                </div>
+            </div>
+            <div class="form-body--input">
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="Business Type">
               </div>
-              <div class="form-body--input">
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Your Name">
-                </div>
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Business City">
-                </div>
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="Business Suite/Apt Number (Optional)">
               </div>
-              <div class="form-body--input">
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Your Email Address">
-                </div>
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="Business State">
-                </div>
-                <div class="control">
-                  <input class="input is-medium" type="text" placeholder="ZIP Code">
-                </div>
+            </div>
+            <div class="form-body--input">
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="Your Name">
               </div>
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="Business City">
+              </div>
+            </div>
+            <div class="form-body--input">
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="Your Email Address">
+              </div>
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="Business State">
+              </div>
+              <div class="control">
+                <input class="input is-medium" type="text" placeholder="ZIP Code">
+              </div>
+            </div>
 
-              <a class="button" href="#">
+            <a class="button" href="#">
       NEXT QUESTION
     </a>
         </div>
@@ -85,64 +85,49 @@
     <div class="container">
       <div class="grid">
         <div class="grid__item">
-          <form class="form-body id="signup" action="Spectrum" method="POST" ">
-      <div class="form-body--container">
-        <fieldset class="step2">
-            <h3 class="label">Why You?</h3>
+          <form class="form-body id=" signup " action="Spectrum " method="POST " ">
+            <div class="form-body--container">
+              <fieldset class="step2">
+                <h3 class="label">Why You?</h3>
 
-            <h4>Why do customers choose you over the competition?</h4>
+                <h4>Why do customers choose you over the competition?</h4>
 
-            <fieldset>
-              <label
-        class="input is-medium"
-        for="serviceChoice"
-        placeholder="BEST CUSTOMER SERVICE">
+                <fieldset>
+                  <label class="input is-medium" for="serviceChoice" placeholder="BEST CUSTOMER SERVICE">
         BEST CUSTOMER SERVICE
               </label>
-              <input type="checkbox" class="input is-medium" id="serviceChoice" value="BEST CUSTOMER SERVICE">
+                  <input type="checkbox" class="input is-medium" id="serviceChoice" value="BEST CUSTOMER SERVICE">
 
-              <label
-        class="input is-medium"
-        for="trustChoice"
-        placeholder="REPUTATION/TRUST">
+                  <label class="input is-medium" for="trustChoice" placeholder="REPUTATION/TRUST">
         REPUTATION/TRUST
               </label>
-              <input type="checkbox" class="input is-medium" id="trustChoice" value="REPUTATION/TRUST">
+                  <input type="checkbox" class="input is-medium" id="trustChoice" value="REPUTATION/TRUST">
 
-              <label
-        class="input is-medium"
-        for="priceChoice"
-        placeholder="BEST PRICE">
+                  <label class="input is-medium" for="priceChoice" placeholder="BEST PRICE">
         BEST PRICE
               </label>
-              <input type="checkbox" class="input is-medium" id="priceChoice" value="BEST PRICE">
+                  <input type="checkbox" class="input is-medium" id="priceChoice" value="BEST PRICE">
 
-              <label
-        class="input is-medium"
-        for="qualityChoice"
-        placeholder="QUALITY PRODUCT">
+                  <label class="input is-medium" for="qualityChoice" placeholder="QUALITY PRODUCT">
         QUALITY PRODUCT
               </label>
-              <input type="checkbox" class="input is-medium" id="qualityChoice" value="QUALITY PRODUCT">
+                  <input type="checkbox" class="input is-medium" id="qualityChoice" value="QUALITY PRODUCT">
 
-              <label
-        class="input is-medium"
-        for="otherChoice"
-        placeholder="OTHER">
+                  <label class="input is-medium" for="otherChoice" placeholder="OTHER">
         OTHER
               </label>
-              <input type="checkbox" class="input is-medium" id="otherChoice" value="OTHER">
-            </fieldset>
+                  <input type="checkbox" class="input is-medium" id="otherChoice" value="OTHER">
+                </fieldset>
 
-            <a class="button" href="#">NEXT QUESTION</a>
+                <a class="button" href="#">NEXT QUESTION</a>
 
-          </fieldset>
-      </div><!-- step2 -->
+              </fieldset>
+            </div>
+        </div>
       </div>
-    </div>
 
 
-    </form>
+      </form>
     </div>
   </section>
 
