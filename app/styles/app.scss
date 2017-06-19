@@ -80,14 +80,14 @@ h6 {
 
 .control {
   display: flex;
-  flex-basis: calc(100% / 2 - 1rem - 1rem);
+  // flex-basis: calc(100% / 2 - 1rem - 1rem);
   margin: 1rem;
 }
 
 .grid__item {
   border-bottom: 1rem;
   display: flex;
-  flex-basis: calc(100% / 3 - 1rem - 1rem);
+  // flex-basis: calc(100% / 3 - 1rem - 1rem);
   flex-grow: 1;
   margin: 3rem;
 }
@@ -100,9 +100,6 @@ h6 {
   background-color: white;
 }
 
-.step2 {
-  padding: 1rem;
-}
 
 .form-body_input {
   display: flex;
