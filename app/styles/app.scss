@@ -56,15 +56,15 @@ h6 {
   background: white;
   display: flex;
   flex-grow: 1;
-  padding: 1rem;
+
 
 }
 
 .input {
   ,
   input[type=text] {
-    background: white;
-    width: auto;
+
+    // width: auto;
     padding: 1rem;
     margin-bottom: 10px;
   }
@@ -78,7 +78,7 @@ h6 {
   flex-grow: 1;
 }
 
-.control-too {
+.control {
   display: flex;
   flex-basis: calc(100% / 2 - 1rem - 1rem);
   margin: 1rem;
@@ -94,6 +94,7 @@ h6 {
 
 .form-body {
   // border: 1rem;
+  padding: 2rem;
   flex-grow: 1;
   justify-content: center;
   background-color: white;
