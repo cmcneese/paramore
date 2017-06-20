@@ -1,0 +1,26 @@
+{
+  "name": "codechallenge",
+  "description": "form",
+  "main": "~/projects/paramore",
+  "authors": [
+    "Chris McNeese <christophermcneese@mac.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "paramore",
+    "code",
+    "challenge"
+  ],
+  "homepage": "https://github.com/cmcneese/paramore",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "validate": "validate.js#^0.11.1"
+  }
+}
