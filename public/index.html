@@ -85,55 +85,39 @@
     <div class="container">
       <div class="grid">
         <div class="grid__item">
-          <form class="form-body id=" signup " action="Spectrum " method="POST " ">
+          <form class="form-body" id="signup" action="Spectrum" method="POST">
             <div class="form-body--container">
               <fieldset class="step2">
                 <h3 class="label">Why You?</h3>
 
                 <h4>Why do customers choose you over the competition?</h4>
 
-                <fieldset>
-                  <label class="input is-medium" for="serviceChoice" placeholder="BEST CUSTOMER SERVICE">
-        BEST CUSTOMER SERVICE
-              </label>
-                  <input type="checkbox" class="input is-medium" id="serviceChoice" value="BEST CUSTOMER SERVICE">
+                <input class="js-question2-input" type="text" value=""/>
+  <button class="input is-medium js-question2-option" type="select" placeholder="BEST CUSTOMER SERVICE">
+    BEST CUSTOMER SERVICE
+  </button>
 
-                  <label class="input is-medium" for="trustChoice" placeholder="REPUTATION/TRUST">
-        REPUTATION/TRUST
-              </label>
-                  <input type="checkbox" class="input is-medium" id="trustChoice" value="REPUTATION/TRUST">
+                  <button class="input is-medium js-question2-option" type="select" placeholder="REPUTATION/TRUST">
+    REPUTATION/TRUST
+  </button>
 
-                  <label class="input is-medium" for="priceChoice" placeholder="BEST PRICE">
-        BEST PRICE
-              </label>
-                  <input type="checkbox" class="input is-medium" id="priceChoice" value="BEST PRICE">
+  <button class="input is-medium js-question2-option" type="select" placeholder="BEST PRICE">
+BEST PRICE
+</button>
 
-                  <label class="input is-medium" for="qualityChoice" placeholder="QUALITY PRODUCT">
-        QUALITY PRODUCT
-              </label>
-                  <input type="checkbox" class="input is-medium" id="qualityChoice" value="QUALITY PRODUCT">
+<button class="input is-medium js-question2-option" type="select" placeholder="QUALITY PRODUCT">
+QUALITY PRODUCT
+</button>
+                  <button class="input is-medium js-question2-option" type="select" placeholder="OTHER">
+    OTHER
+  </button>
 
-                  <label class="input is-medium" for="otherChoice" placeholder="OTHER">
-        OTHER
-              </label>
-                  <input type="checkbox" class="input is-medium" id="otherChoice" value="OTHER">
-                </fieldset>
-
-                <a class="button" href="#">NEXT QUESTION</a>
-
-              </fieldset>
-            </div>
-        </div>
-      </div>
-
-
+  <a class="button" type="button">NEXT QUESTION</a>
       </form>
     </div>
   </section>
 
-  <button class="submit" type="submit">
-  SUBMIT
-  </button>
+  <button class="submit" type="submit">SUBMIT</button>
 
   <div class="footer">
     2017 Charter Communications

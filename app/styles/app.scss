@@ -108,6 +108,7 @@ h6 {
   font: inherit;
   vertical-align: baseline;
   justify-content: space-between;
+  flex-basis: calc(100% / 4 - 1rem - 1rem);
 }
 
 .label {
