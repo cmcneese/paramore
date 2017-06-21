@@ -13,8 +13,8 @@ const constraints = {
     exclusion: {
       within: ['Apple'],
       message: "'%{value}' is not allowed"
-    }
-  }
+    },
+  },
 };
 
 validate({ from: null }, constraints);
