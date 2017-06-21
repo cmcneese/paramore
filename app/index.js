@@ -1,5 +1,5 @@
 import 'whatwg-fetch';
-validate.validators.custom = function (value, options, key, attributes) {
+validation.validators.custom = function (value, options, key, attributes) {
   console.log(value);
   console.log(options);
   console.log(key);

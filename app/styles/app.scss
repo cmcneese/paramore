@@ -14,20 +14,18 @@ body {
 }
 
 .border-top {
-  background-color: rgba(9,52,87,1);
-  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 0.5rem;
   align-items: center;
-  padding: 0;
+  justify-content: center;
+  background-color: rgba(9, 52, 87, 1);
+  color: white;
 }
 
 .title {
-  color: white;
   display: flex;
   flex-direction: column;
+  color: white;
   font-size: 4em;
   text-align: center;
 }
@@ -41,9 +39,9 @@ h6 {
 }
 
 .subtitle {
-  color: white;
   display: flex;
   flex-direction: column;
+  color: white;
   text-align: center;
 }
 
@@ -53,100 +51,89 @@ h6 {
 }
 
 .control {
-  background: white;
   display: flex;
   flex-grow: 1;
-
-
+  margin: 1rem;
+  background: white;
 }
 
 .input {
-  ,
-  input[type=text] {
-
-    // width: auto;
-    padding: 1rem;
-    margin-bottom: 10px;
-  }
-
-  ,
-  input[type=email],
-  input[type=text] {
-    display: block;
-  }
-  border: 3px solid gray;
+  display: block;
   flex-grow: 1;
-}
-
-.control {
-  display: flex;
-  // flex-basis: calc(100% / 2 - 1rem - 1rem);
-  margin: 1rem;
+  margin-bottom: 10px;
+  padding: 1rem;
+  border: 3px solid gray;
+  background-color: white;
 }
 
 .grid__item {
-  border-bottom: 1rem;
   display: flex;
-  // flex-basis: calc(100% / 3 - 1rem - 1rem);
+  flex-basis: calc(100% / 3 - 1rem - 1rem);
   flex-grow: 1;
   margin: 3rem;
+  border-bottom: 1rem;
 }
 
 .form-body {
-  // border: 1rem;
-  padding: 2rem;
   flex-grow: 1;
   justify-content: center;
+  padding: 2rem;
   background-color: white;
 }
 
 
 .form-body--input {
   display: flex;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
   justify-content: space-between;
-  flex-basis: calc(100% / 2 - 1rem - 1rem);
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 .label {
-  padding: 1rem;
-  color: black;
   padding: 0;
+  color: black;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .button {
-  background-color: rgba(109, 194, 190, 1);
   display: flex;
-  color: white;
   justify-content: center;
   padding: 1rem;
+  background-color: rgba(109, 194, 190, 1);
+  color: white;
   text-decoration: none;
 }
 
-.button-bottom {
-  background-color: rgba(109, 194, 190, 1);
-  display: flex;
-  color: white;
-  justify-content: center;
+.form-body--container {
   padding: 1rem;
 }
 
+.button-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgba(109, 194, 190, 1);
+  color: white;
+}
 
 .submit {
   display: block;
+  margin: 0 auto;
+  padding: 15px 32px;
   background-color: rgba(109, 194, 190, 1);
   color: white;
-  padding: 15px 32px;
-  margin: 0 auto;
-
 }
 
 .footer {
-  color: white;
   display: flex;
   justify-content: center;
   margin: 5rem;
+  color: white;
 }

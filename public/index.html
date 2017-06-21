@@ -10,6 +10,7 @@
 
 <body>
   <script src="/app.js" charset="utf-8"></script>
+  <script src="validator.min.js"></script>
   <header>
     <div class="border">
       <div class="border-top">
@@ -86,34 +87,37 @@
         <div class="grid__item">
           <form class="form-body" id="signup" action="Spectrum" method="POST">
             <div class="form-body--container">
-              <fieldset class="step2">
+              <form class="step2">
                 <h3 class="label">Why You?</h3>
-
                 <h4>Why do customers choose you over the competition?</h4>
+                <div class="form-button">
+                  <button class="input is-medium js-question2-option" type="select" placeholder="BEST CUSTOMER SERVICE">
+                      BEST CUSTOMER SERVICE
+                    </button>
+                  <button class="input is-medium js-question2-option" type="select" placeholder="REPUTATION/TRUST">
+                      REPUTATION/TRUST
+                    </button>
+                </div>
 
-                <input class="js-question2-input" type="text" value="" />
-                <button class="input is-medium js-question2-option" type="select" placeholder="BEST CUSTOMER SERVICE">
-    BEST CUSTOMER SERVICE
-  </button>
+                <div class="form-button">
+                  <button class="input is-medium js-question2-option" type="select" placeholder="BEST PRICE">
+                  BEST PRICE
+                  </button>
 
-                <button class="input is-medium js-question2-option" type="select" placeholder="REPUTATION/TRUST">
-    REPUTATION/TRUST
-  </button>
-
-                <button class="input is-medium js-question2-option" type="select" placeholder="BEST PRICE">
-BEST PRICE
-</button>
-
-                <button class="input is-medium js-question2-option" type="select" placeholder="QUALITY PRODUCT">
-QUALITY PRODUCT
-</button>
-                <button class="input is-medium js-question2-option" type="select" placeholder="OTHER">
-    OTHER
-  </button>
-
+                  <button class="input is-medium js-question2-option" type="select" placeholder="QUALITY PRODUCT">
+                  QUALITY PRODUCT
+                  </button>
+                </div>
+                <div class="form-button">
+                  <button class="input is-medium js-question2-option" type="select" placeholder="OTHER">
+                    OTHER
+                  </button>
+                </div>
                 <a class="button" type="button">NEXT QUESTION</a>
+              </form>
+            </div>
           </form>
-          </div>
+        </div>
   </section>
 
   <button class="submit" type="submit">SUBMIT</button>
