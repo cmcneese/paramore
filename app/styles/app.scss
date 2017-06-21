@@ -112,7 +112,13 @@ h6 {
 }
 
 .form-body--container {
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-button--left {
+  display: flex;
+  flex-direction: column;
 }
 
 .button-bottom {
