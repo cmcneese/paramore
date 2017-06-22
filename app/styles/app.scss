@@ -66,10 +66,11 @@ h6 {
   background-color: white;
 }
 
-.control-too {
-  display: flex;
-  flex-basis: calc(100% / 2 - 1rem - 1rem);
-  margin: 1rem;
+.form-body {
+  flex-grow: 1;
+  justify-content: center;
+  border-bottom: 1rem;
+  background-color: white;
 }
 
 .grid__item {
@@ -80,37 +81,38 @@ h6 {
   border-bottom: 1rem;
 }
 
-.form-body {
-  border-bottom: 1rem;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: center;
-  background-color: white;
+
+.control-too {
+  display: flex;
+  flex-basis: calc(100% / 2 - 1rem - 1rem);
+  margin: 1rem;
 }
 
 .subcontainer{
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .form-body--container {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .form-body--input {
   display: flex;
-  vertical-align: baseline;
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline;
+
 }
 
-
+.form-body--subinput {
+  display: flex;
+  flex-direction: column;
+}
 
 .form-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
 }
 
 .button {
@@ -124,8 +126,8 @@ h6 {
 
 
 .form-button--left {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 }
 
 .button-bottom {
