@@ -55,7 +55,7 @@ h6 {
   flex-grow: 1;
   padding: 1rem;
   background: white;
-  width: 50%;
+  width: 100%;
 }
 
 .input {
@@ -86,13 +86,16 @@ h6 {
 
 .subcontainer{
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
 }
 
-.control-too {
-  display: flex;
-  // flex-basis: calc(100% / 2 - 1rem - 1rem);
-  margin: 1rem;
-}
+// .control{
+//   display: flex;
+//   // flex-basis: calc(100% / 2 - 1rem - 1rem);
+//   margin: 1rem;
+// }
 
 .form-body--container {
   padding: 2rem;
@@ -106,7 +109,10 @@ h6 {
 }
 
 .form-body--left {
-  display: flex;
+  flex-direction: column;
+}
+
+.form-body--right {
   flex-direction: column;
 }
 
