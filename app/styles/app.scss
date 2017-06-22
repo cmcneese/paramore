@@ -55,6 +55,7 @@ h6 {
   flex-grow: 1;
   padding: 1rem;
   background: white;
+  width: 50%;
 }
 
 .input {
@@ -82,14 +83,15 @@ h6 {
 }
 
 
-.control-too {
-  display: flex;
-  flex-basis: calc(100% / 2 - 1rem - 1rem);
-  margin: 1rem;
-}
 
 .subcontainer{
   padding: 2rem;
+}
+
+.control-too {
+  display: flex;
+  // flex-basis: calc(100% / 2 - 1rem - 1rem);
+  margin: 1rem;
 }
 
 .form-body--container {
@@ -103,7 +105,7 @@ h6 {
   font-size: 100%;
 }
 
-.form-body--subinput {
+.form-body--left {
   display: flex;
   flex-direction: column;
 }
