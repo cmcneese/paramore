@@ -80,7 +80,7 @@ h6 {
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
   background-color: white;
 }
 
@@ -91,17 +91,13 @@ h6 {
 
 .form-body--input {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   border: 0;
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
 }
 
-.label {
-  padding: 0;
-  color: black;
-}
 
 .form-button {
   display: flex;
