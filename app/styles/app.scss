@@ -53,7 +53,7 @@ h6 {
 .control {
   display: flex;
   flex-grow: 1;
-  margin: 1rem;
+  padding: 1rem;
   background: white;
 }
 
@@ -66,8 +66,13 @@ h6 {
   background-color: white;
 }
 
+.control-too {
+  display: flex;
+  flex-basis: calc(100% / 2 - 1rem - 1rem);
+  margin: 1rem;
+}
+
 .grid__item {
-  background-color: white;
   display: flex;
   flex-basis: calc(100% / 3 - 1rem - 1rem);
   flex-grow: 1;
@@ -76,27 +81,30 @@ h6 {
 }
 
 .form-body {
-  display: flex;
+  border-bottom: 1rem;
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
-  padding: 1rem;
   background-color: white;
 }
 
+.subcontainer{
+  padding: 1rem;
+}
+
 .form-body--container {
-  display: flex;
-  flex-direction: column;
+  padding: 1rem;
 }
 
 .form-body--input {
   display: flex;
-  flex-direction: column;
+  vertical-align: baseline;
   border: 0;
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
 }
+
 
 
 .form-button {
