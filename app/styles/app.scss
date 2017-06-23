@@ -52,7 +52,7 @@ h6 {
 
 .control {
   display: flex;
-  flex-grow: 1;
+  flex-basis: calc(100% / 2 - 1rem - 1rem);
   padding: 1rem;
   background: white;
   width: 100%;
@@ -111,12 +111,6 @@ h6 {
 
 .js-question2 {
   display: flex;
-}
-
-.form-button {
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: space-between;
 }
 
 .button {
