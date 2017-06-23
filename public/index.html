@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>CodeChallenge</title>
+  <title>Chris McNeese - Paramore Digital</title>
   <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
   <script src="/app.js" charset="utf-8"></script>
+  <script src="validator.min.js"></script>
+  <header>
+    <div class="border">
+      <div class="border-top">
+        <div>
+          <img src="/spectrum100.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <h1>Targeted Analysis</h1>
+    </div>
+    <div class="subtitle">
+      <h2>The path to your Targeted Media Plan starts here!</h2>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <form class="form-body">
+            <div class="form-body--container">
+              <h3 class="label">Your Information</h3>
+              <h4>Information about you and your business.</h4>
+              <div class="form-body--input">
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Company Name">
+                </div>
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Business Street Address">
+                </div>
+              </div>
+              <div class="form-body--input">
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Business Type">
+                </div>
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Business Suite/Apt Number (Optional)">
+                </div>
+              </div>
+              <div class="form-body--input">
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Your Name">
+                </div>
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Business City">
+                </div>
+              </div>
+              <div class="form-body--input">
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Your Email Address">
+                </div>
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="Business State">
+                </div>
+                <div class="control">
+                  <input class="input is-medium" type="text" placeholder="ZIP Code">
+                </div>
+              </div>
+            </div>
+
+            <a class="button" href="#">
+      NEXT QUESTION
+    </a>
+        </div>
+      </div>
+    </div>
+
+    </form>
+    </div>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <form class="form-body" id="signup" action="Spectrum" method="POST">
+            <div class="form-body--container">
+              <div class="subcontainer">
+                <h3>Why You?</h3>
+                <h4>Why do customers choose you over the competition?</h4>
+                <div class="form-body--left">
+                  <div class="control">
+                    <div class="control">
+                      <button class="input is-medium js-question2-option" type="select" placeholder="BEST CUSTOMER SERVICE">
+                          BEST CUSTOMER SERVICE
+                        </button>
+                    </div>
+                    <div class="control">
+                      <button class="input is-medium js-question2-option" type="select" placeholder="REPUTATION/TRUST">
+                            REPUTATION/TRUST
+                          </button>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="control">
+                      <button class="input is-medium js-question2-option" type="select" placeholder="BEST PRICE">
+                      BEST PRICE
+                      </button>
+                    </div>
+                    <div class="control">
+                      <button class="input is-medium js-question2-option" type="select" placeholder="OTHER">
+                      OTHER
+                    </button>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="control">
+                      <button class="input is-medium js-question2-option" type="select" placeholder="QUALITY PRODUCT">
+                      QUALITY PRODUCT
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="button" type="button">NEXT QUESTION</a>
+          </form>
+        </div>
+      </div>
+  </section>
+
+  <button class="submit" type="submit">SUBMIT</button>
+
+  <div class="footer">
+    2017 Charter Communications
+  </div>
 </body>
+
 </html>

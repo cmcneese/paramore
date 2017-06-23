@@ -62,6 +62,8 @@ const compiledSass = new Sass(stylePaths, 'app.scss', 'app.css', {});
 const optimizedCSS = new CssOptimizer(compiledSass);
 const styles = new Autoprefixer(optimizedCSS);
 
+const images = 'app/img';
+
 if (process.env.EMBER_ENV === 'test') {
   const testTree = new Merge([
     mv(babelScript, 'app'),
@@ -76,7 +78,7 @@ if (process.env.EMBER_ENV === 'test') {
     }
   });
 
-  module.exports = new Merge([pubFiles, styles, appScript, testJs]);
+  module.exports = new Merge([pubFiles, images, styles, appScript, testJs]);
 } else {
-  module.exports = new Merge([pubFiles, styles, appScript]);
+  module.exports = new Merge([pubFiles, images, styles, appScript]);
 }
